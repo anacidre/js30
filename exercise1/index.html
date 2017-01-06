@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stress relif Star Wars Soundboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img id="logo" src="Star_Wars_The_Force_Awakens_Transparent_Logo.png" alt="Star Wars" style="width:304px;">
+  <div class="keys">
+    <div key="c" class="key">
+      <kbd>C</kbd>
+      <span class="sound">Chewbacca sound</span>
+    </div>
+    <div key="a" class="key">
+      <kbd>A</kbd>
+      <span class="sound">Darthvader Anger</span>
+    </div>
+    <div key="j" class="key">
+      <kbd>J</kbd>
+      <span class="sound">Jabba Laughter</span>
+    </div>
+    <div key="w" class="key">
+      <kbd>W</kbd>
+      <span class="sound">Leia Whaaaat?</span>
+    </div>
+    <div key="l" class="key">
+      <kbd>L</kbd>
+      <span class="sound">Luke piece of junk</span>
+    </div>
+    <div kay="o" class="key">
+      <kbd>O</kbd>
+      <span class="sound">Obiwan The force</span>
+    </div>
+    <div key="r" class="key">
+      <kbd>R</kbd>
+      <span class="sound">r2d2 speaking</span>
+    </div>
+    <div key="u" class="key">
+      <kbd>U</kbd>
+      <span class="sound">Leia why you...</span>
+    </div>
+    <div key="y" class="key">
+      <kbd>Y</kbd>
+      <span class="sound">Yodas advice</span>
+    </div>
+  </div>
+</body>
+
+<audio id="chewbacca" src="sounds/chewbacca_01.wav"></audio>
+<audio id="anger" src="sounds/darthvader_anger.wav"></audio>
+<audio id="jabba" src="sounds/jabba_laugh.wav"></audio>
+<audio id="leia" src="sounds/leia_what.wav"></audio>
+<audio id="luke" src="sounds/luke_junk.wav"></audio>
+<audio id="obiwan" src="sounds/obiwan_theforce.wav"></audio>
+<audio id="r2d2" src="sounds/r2d2_01.wav"></audio>
+<audio id="whyyou" src="sounds/WHYYOU.wav"></audio>
+<audio id="yoda" src="sounds/yoda_doordonot.wav"></audio>
+
+
+<script>
+var chewbacca = document.querySelector("#chewbacca");
+var anger = document.querySelector("#anger");
+var jabba = document.querySelector("#jabba");
+var leia = document.querySelector("#leia");
+var luke = document.querySelector("#luke");
+var obiwan = document.querySelector("#obiwan");
+var r2d2 = document.querySelector("#r2d2");
+var whyyou = document.querySelector("#whyyou");
+var yoda = document.querySelector("#yoda");
+
+document.addEventListener("keydown", function(event){
+    if (event.key === "c") {
+      chewbacca.play();
+    }
+});
+
+document.addEventListener("keydown", function(event){
+    if (event.key === "a") {
+      anger.play();
+    }
+});
+
+document.addEventListener("keydown", function(event){
+    if (event.key === "j") {
+      jabba.play();
+    }
+});
+
+document.addEventListener("keydown", function(event){
+    if (event.key === "w") {
+      leia.play();
+    }
+});
+
+document.addEventListener("keydown", function(event){
+    if (event.key === "l") {
+      luke.play();
+    }
+});
+
+document.addEventListener("keydown", function(event){
+    if (event.key === "o") {
+      obiwan.play();
+    }
+});
+document.addEventListener("keydown", function(event){
+    if (event.key === "r") {
+      r2d2.play();
+    }
+});
+
+document.addEventListener("keydown", function(event){
+    if (event.key === "u") {
+      whyyou.play();
+    }
+});
+
+document.addEventListener("keydown", function(event){
+    if (event.key === "y") {
+      yoda.play();
+    }
+});
+
+</script>
