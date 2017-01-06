@@ -1,7 +1,4 @@
-@font-face {
-    font-family: starWars;
-    src: url(Starjedi.ttf);
-}
+
 #logo{
   position: absolute;
      top: 50%;
@@ -51,7 +48,8 @@ body,html {
 kbd {
   display: block;
   font-size: 4rem;
-  font-family:starWars;
+  font-family: Russo One;
+  font-weight: 800;
 }
 
 .sound {
@@ -59,4 +57,12 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+.text-tagline{
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
 }
